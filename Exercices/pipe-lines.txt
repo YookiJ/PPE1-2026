@@ -15,4 +15,4 @@ cat Exercice1/ann/2018/*.ann | grep location | wc -l >> locations.txt
 2.a grep "Location" Exercice1/ann/2016/*.ann | cut -f 3 | sort | uniq -c | sort -n | tail -n 15 > classement_2016.txt
 grep "Location" Exercice1/ann/2017/*.ann | cut -f 3 | sort | uniq -c | sort -n | tail -n 15 > classement_2017.txt
 grep "Location" Exercice1/ann/2018/*.ann | cut -f 3 | sort | uniq -c | sort -n | tail -n 15 > classement_2018.txt
-2.b grep "Location" Exercice1/ann/*/*_03_*.ann | cut -f 3 | sort | uniq -c | sort -n | tail -n 15 > classement_mars.txt2.b grep "Location" Exercice1/ann/*/*_03_*.ann | cut -f 3 | sort | uniq -c | sort -n | tail -n 15 > classement_mars.txt
+2.b grep "Location" Exercice1/ann/*/*_03_*.ann | cut -f 3 | sort | uniq -c | sort -n | tail -n 15 > classement_mars.txt2.b
