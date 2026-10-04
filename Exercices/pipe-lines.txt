@@ -1,0 +1,18 @@
+1.a: echo "Annotations en 2016 :" > Exercices/comptes.txt
+cat ../Exercice1/ann/2016/*.ann | wc -l >> Exercices/comptes.txt
+echo "Annotations en 2017 :" >> Exercices/comptes.txt
+cat ../Exercice1/ann/2017/*.ann | wc -l >> Exercices/comptes.txt
+echo "Annotations en 2018 :" >> Exercices/comptes.txt
+cat ../Exercice1/ann/2018/*.ann | wc -l >> Exercices/comptes.txt
+
+1.b echo "Locations en 2016 :" > locations.txt
+cat Exercice1/ann/2016/*.ann | grep Location | wc -l >> locations.txt
+echo "Locations en 2017 :" >> locations.txt
+cat Exercice1/ann/2017/*.ann | grep location | wc -l >> locations.txt
+echo "Locations en 2018 :" >> locations.txt
+cat Exercice1/ann/2018/*.ann | grep location | wc -l >> locations.txt
+
+2.a grep "Location" Exercice1/ann/2016/*.ann | cut -f 3 | sort | uniq -c | sort -n | tail -n 15 > classement_2016.txt
+grep "Location" Exercice1/ann/2017/*.ann | cut -f 3 | sort | uniq -c | sort -n | tail -n 15 > classement_2017.txt
+grep "Location" Exercice1/ann/2018/*.ann | cut -f 3 | sort | uniq -c | sort -n | tail -n 15 > classement_2018.txt
+
