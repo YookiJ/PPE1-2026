@@ -8,3 +8,5 @@ J'ai créé le journal que j'ai mis sur github en suivant le td, et là j'écris
 ### exercices git correction d'erreur
 Cette ligne doit rester après correction
 testestest
+
+ligne mise de côté
