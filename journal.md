@@ -9,6 +9,7 @@ J'ai créé le journal que j'ai mis sur github en suivant le td, et là j'écris
 testestest
 
 ligne mise de côté
+
 J'ai utilisé git reset, ce qui a supprimé le commit d'erreur et celui d'après.
 J'ai été un peu perdu pour le 3.a car il est écrit de ne faire aucun push mais "poussé votre dernier commit" mais je pense avoir réussi en faisant git reset git-seance2-defaire
 J'ai fait git fetch et git status pour le 4.b
