@@ -5,6 +5,6 @@ J'ai créé le journal que j'ai mis sur github en suivant le td, et là j'écris
  
 ## Séance 3 21/10/26
 
-### exercices git
+### exercices git correction d'erreur
 Cette ligne doit rester après correction
 testestest
