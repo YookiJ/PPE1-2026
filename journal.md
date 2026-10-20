@@ -1,3 +1,9 @@
+ezafzefq*
+gezgpkrfzq
+fl;v
+d
+q
+
 # Journal de bord du projet encadré
 
 ## 04/10/26
